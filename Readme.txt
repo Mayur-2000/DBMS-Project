@@ -1,3 +1,4 @@
+Project Name: Plasma Donation Management System
 hello,
 step 1:create a database named plasmaproject in xammp server 
 step 2:create the tables named admin,donationform,requestform,contact,temp,rtemp

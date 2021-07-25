@@ -1,0 +1,336 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+
+        <title>Plasma Donation</title>
+        <link rel="stylesheet" href="plasma.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <script>
+            alert('Donate your plasma atleast four months once,be carefull while filling the forms')
+        </script>
+        <script>
+            alert('to donate your form your Age limit should 18-65 and weight should minimum 50kg,otherwise we delete your data')
+        </script>
+        
+         <script>
+            alert('when our team members contact you ,please provide your health condition properly,it is usefull for us to refer your name.')
+        </script>
+
+        <section class="header" id="sec1" data-text="HOME">
+            <div class="content-box">
+                <div class="menu">
+                    <button type="button"><i class="fa fa-sign-in"></i><a href="admin.php">Admin Login!</a>
+                    </button>
+                </div>
+                <nav>
+                    <li><a href="#sec1">HOME</a></li>
+                    <li><a href="#sec2">VIDEO</a></li>
+                    <li><a href="#sec4">DONATION FORM</a></li>
+                    <li><a href="#sec5">REQUEST FORM</a></li>
+                    <li><a href="#sec6">GALLERY</a></li>
+                    <li><a href="#sec7">CAMPS</a></li>
+                    <li><a href="#sec8">CONTACT</a></li>
+                    <!--<li><a href="signup.html">SIGNOUT</a></li>-->
+                   
+                </nav>
+                <div class="banner-text">
+                    <h2>PLASMA BANK MANAGEMENT SYSTEM</h2>
+                    <p>Plasma is the clear, straw-colored liquid portion of blood that remains 
+                        after red blood cells, white blood cells, platelets and other cellular components are removed. It is the single largest component of human blood, 
+                        comprising about 55 percent, and contains water, salts, enzymes, antibodies and other proteins.
+                    </p>
+                    <a href="https://www.donatingplasma.org/donation/what-is-plasma" target="-blank">More Information</a>
+                </div>
+                <div class="bubbles">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                    <img src="bubble.png">
+                </div>
+            </div>
+
+        </section>
+
+    <!------------video-------------->
+
+        <section class="video" id="sec2" data-text="VIDEO">
+            <div class="content-box">
+                <div class="container">
+                    <h2>DONATE PLASMA,SAVE LIFE</h2>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/08Pb-UZPLiU" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!------------importance-------------->
+
+        <section class="importance">
+            <div class="content-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>How Plasma Donation Helps</h2>
+                            <ul>
+                                <li>A person recovers from Covid-19,he/she develops anitibodies.</li><br>
+                                <li>These antibodies(plasma) target the virus and the patient is cured.</li><br>
+                                <li>Extremely simple process.Only plasma is retrieved from the donor's blood.</li>
+                               
+                             </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://static.toiimg.com/img/75173758/Master.jpg" alt="plasma importance" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------footer------------------->
+
+        <section class="footer" id="sec4" data-text="DONATION FORM">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Plasma Donation Form</h1>
+                    <form action="connect.php" method="POST">
+                     <div class="row">
+                        <div class="col-md-6">
+                            <form class="Donation-Form">
+
+                                <div class="form-group">
+                                    <label for="FirstName">FirstName</label>
+                                    <input type="text" class="form-control" placeholder="Your Name" name="FirstName">
+                                
+                                 
+                                    <label for="Blood_Group">Blood_Group</label>
+                                    <input type="text" class="form-control" placeholder="Blood group"  name="Blood_Group">
+                                
+                                  
+                                    <label for="Age">Age</label>
+                                    <input type="text" class="form-control" placeholder="Age limit 18-65"  name="Age">
+                                    <label for="weight">weight</label>
+                                    <input type="text" class="form-control" placeholder="Minimum weight 50kg"  name="weights">
+                                
+
+                                
+                                    <label for="PhoneNumber">PhoneNumber</label>
+                                    <input type="number" class="form-control" placeholder="Phone Number"  name="PhoneNumber">
+                                
+                                <!-- <div class="form-group">
+                                    <label for="Email_Id">Email_Id</label>
+                                    <input type="email" class="form-control" placeholder="Email_Id"  name="Email_Id">
+                                 </div>-->
+
+                                    <label for="City">City</Address></label>
+                                    <input class="form-control"  placeholder="City"  name="city">
+                                </div>
+                               
+                                <!-- <table>
+                                     <tr>
+                                         <td>Select:</td>
+                                    <td>
+                                    <input type="radio" class="form-control"   name="eligible" value="y">YES
+                                    <input type="radio" class="form-control"   name="eligible" value="n">NO
+                                 </td>
+                                </tr>
+                                 </table>-->
+                                
+                                 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+
+                            </form>
+                            
+                        </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+          <!------------footer1-------------->
+
+          <section class="footer" id="sec5" data-text="REQUEST FORM">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Plasma Request Form</h1>
+                    <form action="request.php" method="POST">
+                     <div class="row">
+                        <div class="col-md-6">
+                            <form class="Request-Form">
+                               
+                                <div class="form-group">
+                                    <label for="FirstName">FirstName</label>
+                                    <input type="text" class="form-control" placeholder="Your Name" name="FirstName">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="Blood_Group">Blood_Group</label>
+                                    <input type="text" class="form-control" placeholder=" Required Blood group"  name="Blood_Group">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="PhoneNumber">PhoneNumber</label>
+                                    <input type="number" class="form-control" placeholder=" Your Phone Number"  name="PhoneNumber">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="hospitalname">hospitalname</label>
+                                    <input type="text" class="form-control" rows="4" placeholder="hospitalname"  name="hospitalname">
+                                 </div>
+                                 
+                                 <div class="form-group">
+                                    <label for="Address">Address</Address></label>
+                                    <textarea class="form-control" rows="1" placeholder="Hospital Adress"  name="Addr"></textarea>
+                                 </div>
+                                 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                                 
+                               
+                            </form>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!------------Gallery-------------->
+
+        <section class="Gallery" id="sec6" data-text="GALLERY">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Gallery</h1>
+                    <div class="row">
+                        <div class="clm">
+                            <img src="https://living.aahs.org/wp-content/uploads/plasma-donation-Facebook.png" alt="plasma donation" style="width:100%"/>
+                         </div>
+                        <div class="clm">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBFeANVb_q2S8rEQA1p0pndOvMY3F9Rr_eEw&usqp=CAU" alt="plasma donation" style="width:100%"/>
+                        </div>
+                        <div class="clm">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSS2StSqPOc6qJGO4odzLHwqVIk_ucsEDtl5w&usqp=CAU" alt="plasma donation" style="width:100%"/>
+                        </div>
+                        <div class="clm">
+                            <img src="https://stanfordbloodcenter.org/wp-content/uploads/2018/03/0318-SouthBay-Center-Infographics_Plasma-WEB.jpg" alt="plasma donation" style="width:100%"/>
+                        </div>
+                        <div class="clm">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfq4KPBAXdb6jMBkf55s2kVSoXHdGAPMAzgg&usqp=CAU" alt="plasma donation" style="width:100%"/>
+                        </div>
+                        <div class="clm">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT60P9tspT_fDfmpiEkidFZgkVX26N6dBv7LQ&usqp=CAU" alt="plasma donation" style="width:100%"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!------------CAMPS-------------->
+
+  <section class="Gallery" id="sec7" data-text="CAMPS">
+    <div class="content-box">
+        <div class="container">
+            <h1>CAMPS</h1>
+            <div class="row">
+                <div class="clm">
+                    <center>
+                    <p style="font-size:larger;color: darkmagenta;border: 2px solid black;padding-top: 50px;"><b>01/01/2021<br>SJBIT COLLEGE<br>BANGLORE</b></p>
+                    <center>
+                 </div>
+                <div class="clm">
+                    <center>
+                    <p style="font-size:larger;color: darkmagenta;border: 2px solid black; padding-top: 50px;"><b>07/01/2021<br>RNSIT COLLEGE<br>BANGLORE</b></p>
+                    </center>
+                </div>
+                <div class="clm">
+                    <center>
+                    <p style="font-size:larger;color: darkmagenta;border: 2px solid black; padding-top: 50px;"><b>14/01/2021<br>BNMIT COLLEGE<br>BANGLORE</b></p>
+                    </center>
+                </div>
+                <div class="clm">
+                    <center>
+                    <p style="font-size:larger; color: darkmagenta;border: 2px solid black; padding-top: 50px;"><b>21/01/2021<br>GSSS COLLEGE<br>MYSORE</b></p>
+                    </center>
+                </div>
+                <div class="clm">
+                    <center>
+                    <p style="font-size:larger;color: darkmagenta;border: 2px solid black; padding-top: 50px;"><b>28/01/2021<br>RV COLLEGE<br>BANGLORE</b></p>
+                    </center>
+                </div>
+                <div class="clm">
+                    <center>
+                    <p style="font-size:larger;color: darkmagenta;border: 2px solid black; padding-top: 50px;"><b>04/02/2021<br>BIT COLLEGE<br>BANGLORE</b></p>
+                    </center>
+                </div>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-----------Get in touch----------->
+
+        <section class="footer2" id="sec8" data-text="CONTACT">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Get In Touch</h1>
+                    <form  action="gettouch.php" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class="Contact-Form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" name="FName">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Phone Number" name="PhoneNo">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email_Id" name="email">
+                                 </div>
+                                 <div class="form-group">
+                                    <textarea class="form-control" rows="4" placeholder="Comments" name="comments"></textarea>
+                                 </div>
+                                 <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 contact-info">
+                            <div class="follow">
+                                <i class="fa fa-map-marker"></i><span>ABC Road,Banglore,India</span>
+                            </div>
+                            <div class="follow">
+                                <i class="fa fa-phone"></i><span>+91 9560969667</span>
+                            </div>
+                            <div class="follow">
+                                <i class="fa fa-envelope-o"></i><span>hi@example.com</span>
+                            </div>
+                            <div class="follow">
+                                <i class="fa fa-facebook">abc</i>
+                                <i class="fa fa-instagram">abc</i>
+                                <i class="fa fa-twitter">abc</i>
+                                <i class="fa fa-whatsapp">+91 9573836783</i>
+                            </div>
+                        </div>
+                        </div>
+                    </form>
+                        <hr>
+                        <p>&copyMayur's Design</p>
+                </div>
+
+            </div>
+        </section>
+
+       
+       
+    </body>
+</html>
